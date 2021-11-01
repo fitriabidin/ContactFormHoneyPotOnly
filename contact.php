@@ -8,7 +8,7 @@
     <title>Document</title>
 
     <style>
-        .primary { display:none;}
+        .primary,.secondary { display:none;}
     </style>
 
 
@@ -42,20 +42,18 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                         </div>
                         
-                          <!-- This Is Honey Pot -->
-                        
-                          <div class="form-group mb-3">
-                                <input type="text" class="form-control primary" name="first_name" placeholder="Name">
+                         <!-- This Is a Honey Pot -->
+                      
+                            <div class="form-group mb-3">
+                                <input type="hidden" class="form-control " name="first_name" placeholder="Name">
                             </div>
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control primary" name="phone" placeholder="Phone Number" >
+                                <input type="text" class="form-control secondary" name="phone" placeholder="Phone Number" >
                             </div>
                             <div class="form-group mb-3">
                                 <input type="email" class="form-control primary" name="emails" placeholder="Email address">
                             </div>
-                            <div class="col-sm-7">
                             <textarea name="messages" id="message" class="form-control primary"  class="form-control" rows="8" placeholder="Message"></textarea>
-                            </div>
                         
                             <!-- End Of Honey Pot -->
                     </div>
