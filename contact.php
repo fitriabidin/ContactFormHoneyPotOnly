@@ -8,7 +8,7 @@
     <title>Document</title>
 
     <style>
-        .primary,.secondary { display:none;}
+        .jshide,.csshide { display:none;}
     </style>
 
 
@@ -43,22 +43,19 @@
                         </div>
                         
                          <!-- This Is a Honey Pot -->
-                      
-                            <div class="form-group mb-3">
+
                                 <input type="hidden" class="form-control " name="first_name" placeholder="Name">
-                            </div>
-                            <div class="form-group mb-3">
-                                <input type="text" class="form-control secondary" name="phone" placeholder="Phone Number" >
-                            </div>
-                            <div class="form-group mb-3">
-                                <input type="email" class="form-control primary" name="emails" placeholder="Email address">
-                            </div>
-                            <textarea name="messages" id="message" class="form-control primary"  class="form-control" rows="8" placeholder="Message"></textarea>
-                        
+ 
+                                <input type="text" class="form-control csshide" name="phone" placeholder="Phone Number" >
+
+                                <input type="email" class="form-control jshide" name="emails" placeholder="Email address">
+
+                                <textarea name="messages" id="message" class="form-control jshide"  class="form-control" rows="8" placeholder="Message"></textarea>
+
                             <!-- End Of Honey Pot -->
                     </div>
                 </form>
-            </div><!--/.col-sm-8-->
+            </div>
         </div>
     </section>
 
@@ -66,7 +63,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
-      document.querySelector('.primary').style.display = 'none';
+      document.querySelector('.jshide').style.display = 'none';
     </script>
 </body>
 </html>
