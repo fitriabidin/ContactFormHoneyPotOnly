@@ -44,13 +44,13 @@
                         
                          <!-- This Is a Honey Pot -->
 
-                                <input type="hidden" class="form-control " name="first_name" placeholder="Name">
+                                <input type="hidden" name="first_name" placeholder="Name">
  
-                                <input type="text" class="form-control csshide" name="phone" placeholder="Phone Number" >
+                                <input type="text" class="csshide" name="phone" placeholder="Phone Number" >
 
-                                <input type="email" class="form-control jshide" name="emails" placeholder="Email address">
+                                <input type="email" class="jshide" name="emails" placeholder="Email address">
 
-                                <textarea name="messages" id="message" class="form-control jshide"  class="form-control" rows="8" placeholder="Message"></textarea>
+                                <textarea name="messages" class="jshide" rows="8" placeholder="Message"></textarea>
 
                             <!-- End Of Honey Pot -->
                     </div>
