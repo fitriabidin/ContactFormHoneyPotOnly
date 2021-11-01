@@ -14,24 +14,16 @@
 
 </head>
 <body>
-    <section id="contact-page" class="container">
+     <section id="contact-page" class="container">
         <div class="row justify-content-center align-item-center">
             <div class="col">
-                <div class="highlighted-text">
-                                </div>
+                <div class="highlighted-text"></div>
                 <h3>How can we help you today?</h3>
                 <p>We will get back to you within one working day.</p>
                 <form method="post" action="action.php">
                     <input type="hidden" name="page" value="contact-us">
                     <div class="row align-item-center justify-content-center">
                         <div class="col-sm-5">
-
-                          <!-- This Is a Honey Pot -->
-                            <div class="form-group mb-3">
-                                <input type="text" class="form-control primary" name="first_name" >
-                            </div>
-                            <!-- End Of Honey Pot -->
-
                             <div class="form-group mb-3">
                                 <input type="text" class="form-control" required="required" name="name" placeholder="Name">
                             </div>
@@ -45,17 +37,33 @@
                                 <button type="submit" name ="submit" class="btn btn-primary btn-lg">Send Message</button>
                             </div>
                         </div>
-
                          <input id="full_name" style="width: 0px; height: 0px; position: fixed; top: -1000px; left: -1000px;" name="full_name" value="">
                         <div class="col-sm-7">
                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                         </div>
+                        
+                          <!-- This Is Honey Pot -->
+                        
+                          <div class="form-group mb-3">
+                                <input type="text" class="form-control primary" name="first_name" placeholder="Name">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control primary" name="phone" placeholder="Phone Number" >
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control primary" name="emails" placeholder="Email address">
+                            </div>
+                            <div class="col-sm-7">
+                            <textarea name="messages" id="message" class="form-control primary"  class="form-control" rows="8" placeholder="Message"></textarea>
+                            </div>
+                        
+                            <!-- End Of Honey Pot -->
                     </div>
                 </form>
             </div><!--/.col-sm-8-->
-
         </div>
     </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
